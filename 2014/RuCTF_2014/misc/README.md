@@ -1,9 +1,6 @@
-==================================
-SOLVED BY STYPR (http://stypr.com)
-==================================
+## RUCTF RADIO (200pt)
 
-
-This problem would be the easiest one in this CTF.
+This problem would be the easiest one from this CTF.
 You just need to wait for FLAG message to show up.
 
 I heard "soundsgoodtome" at the first time, and it was wrong.

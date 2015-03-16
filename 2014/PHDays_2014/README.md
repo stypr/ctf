@@ -1,6 +1,6 @@
 ![scoreboard](scoreboard.png)
 
-Participated as `Friend of Dalvik` (a part of wowhacker team
+Participated as `Friend of Dalvik` (a part of wowhacker team)
 
 
 ## Snowden Gadget

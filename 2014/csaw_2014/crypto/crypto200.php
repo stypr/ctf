@@ -1,4 +1,5 @@
 <?php
+    // it's dirty and you should know it!
     class Vigenere {
         public static $mVigTable;
         public static $mKey;
