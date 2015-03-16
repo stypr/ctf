@@ -1,0 +1,12 @@
+Forensics 200
+
+Open this file in the wireshark. filter ftp-data.
+In the filter-combo box, try "ftp-data".
+There would be a downloading packets flowing here and there.
+Right-Click one of them and Click Follow TCP Stream.
+
+Ta-da! save them to see the flag. (the guy downloads zip file..)
+
+--
+
+https://www.cloudshark.org/analysis/044ba74ac4f7/follow?stream=13&proto=tcp (download this from wireshark, unzip, and check flag)

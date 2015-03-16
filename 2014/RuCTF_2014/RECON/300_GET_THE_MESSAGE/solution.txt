@@ -1,0 +1,19 @@
+==================================
+SOLVED BY STYPR (http://stypr.com)
+==================================
+
+
+
+By looking at her profile photo, we find out a phone number - +37255933368.
+(Image: ./1-here.jpg)
+I found out from the question that the question is related to telegram application.
+
+Later, I googled the phone number out and the website pop'd up.
+(Source: http://sellaite.com/impulse/login.php?des=2)
+
+It looked as a public number and a simple receiver, so I decided to look deep into it.
+After few minutes, I have found that there was a SMS-receiver behind the phone number.
+(Source: http://sellaite.com/smsreceiver/index.php?phone=%200037255933368)
+We got a public SMS receiver.
+
+By authenticating telegram with this phone number, we get the flag successfully.

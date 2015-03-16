@@ -1,0 +1,39 @@
+**** BEGIN LOGGING AT Fri Jul 24 11:31:25 2012
+Jul 24 11:31:25 *	Now talking on #derrorim
+Jul 24 11:31:25 *	pillow (pillow@unknown) has joined #derrorim
+Jul 24 11:34:55 <ap0linand0r>	hi there
+Jul 24 11:35:06 <lordofhaskel>	hi
+Jul 24 11:35:21 <Paul_Axe>	hi. guys, this is ap0linand0r, he is our customer
+Jul 24 11:36:36 <Paul_Axe>	ap0linand0r, as we planned we are ready to show our project
+Jul 24 11:37:02 <ap0linand0r>	tell me some implementation details
+Jul 24 11:37:43 <Paul_Axe>	our team has developed the framework to manipulate PRISM realities
+Jul 24 11:39:14 <Paul_Axe>	it is based on Prism Illusion Layer Language, which can be used to describe the VR parameters
+Jul 24 11:40:52 <Paul_Axe>	using it, you can define all the general rules for the new reality (e.g. physics laws, characters, their behaviors, moral principles etc)
+Jul 24 11:41:53 <Paul_Axe>	it was developed by pillow
+Jul 24 11:42:52 <Paul_Axe>	we also created the project D'Errorim using this framework
+Jul 24 11:43:46 <Paul_Axe>	lordofhaskel, could you tell a bit about it?
+Jul 24 11:47:27 <lordofhaskel>	well, at the moment we created the basic concepts... we thought that it would be interesting to simulate fantasy world which is populated with various creatures (e.g. orcs, angels, elves, etc)
+Jul 24 11:48:46 <lordofhaskel>	as we want CTF players to attack infosec companies, we Julided to make reflected reality
+Jul 24 11:50:15 <lordofhaskel>	companies will be represented as evil creatures, and all kinds of malware and hackers will be civilians
+Jul 24 11:50:44 <Paul_Axe>	right, in this case we won't need to force hackers to do what we want, because they will think they are doing the right things
+Jul 24 11:50:56 <lordofhaskel>	yeah
+Jul 24 11:51:13 <ap0linand0r>	it's very interesting idea!
+Jul 24 11:55:08 <lordofhaskel>	also we want to integrate Detcelfer as some kind of guide... it will be the first character met by players
+Jul 24 11:56:37 <lordofhaskel>	so he will tell them story about evil villians that has to be destroyed by the chosen ones (CTF Players)
+Jul 24 12:00:28 <Paul_Axe>	we still have to make some customizations 
+Jul 24 12:01:59 <Paul_Axe>	PRISM developers say that the system works better if it is customized for each particular subject. PILL supports the feature to exploit weak points of every subject.
+Jul 24 12:02:21 <pillow>	do we have this information?
+Jul 24 12:16:05 <ap0linand0r>	paul can provide you with this informaion... he's got some connections
+Jul 24 12:16:10 <Paul_Axe>	yes
+Jul 24 12:17:35 <pillow>	PILL interpreter is still in beta
+Jul 24 12:18:12 <pillow>	there are issues with dynamic methods and argument types
+Jul 24 12:19:39 <pillow>	yesterday I caught a segmentation fault while trying to emulate some graphic environment on my BSD host
+Jul 24 12:20:06 <lordofhaskel>	lol
+Jul 24 12:20:56 <pillow>	but general things are working and tested
+Jul 24 12:22:14 <lordofhaskel>	and I've got some bugs in terrain generator...  there's a deep hole in the center of derrorim and I can't understand why =\
+Jul 24 12:23:18 <ap0linand0r>	he-he, I hope you'll fix everything!
+Jul 24 12:23:30 <lordofhaskel>	be sure
+Jul 24 12:23:52 <ap0linand0r>	ok, good luck
+Jul 24 12:23:58 *	ap0linand0r (lordofhask@unknown) has left #derrorim (Leaving)
+Jul 24 12:24:03 *	You have left channel #derrorim (Leaving)
+**** ENDING LOGGING AT Fri Jul 24 12:24:03 2012

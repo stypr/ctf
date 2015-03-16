@@ -1,0 +1,41 @@
+**** BEGIN LOGGING AT Thu Jul 23 18:31:39 2012
+Jul 23 18:31:39 *	Now talking on #PRISM
+Jul 23 18:31:39 *	baatyr (richard@unknown) has joined #PRISM
+Jul 23 18:32:02 *	TalGi (TalGi@unknown) has joined #PRISM
+Jul 23 18:32:21 <ap0linand0r>	hi guys
+Jul 23 18:32:28 <Paul_Axe>	morning
+Jul 23 18:32:32 <ap0linand0r>	what's up with our project?
+Jul 23 18:32:37 <chikasudo>	q
+Jul 23 18:32:45 <GeraldMalkin>	hi
+Jul 23 18:33:00 <TalGi>	hello
+Jul 23 18:34:01 <GeraldMalkin>	ap0linand0r: its ok
+Jul 23 18:35:54 <ap0linand0r>	mm.. it's not enough for me
+Jul 23 18:38:15 <chikasudo>	I've got some good results with Palladium Aurochloride. I tried to add some LSD which improved its effect twice.
+Jul 23 18:38:31 <GeraldMalkin>	i've just solved the equation which proves the concept of accelerated prism particles... now it's tal gi's turn to implement the accelerator
+Jul 23 18:38:32 <chikasudo>	there are some problems with controlling this stuff though
+Jul 23 18:39:12 <GeraldMalkin>	it seems that the end close enough
+Jul 23 18:39:57 <TalGi>	chika you are the best!
+Jul 23 18:39:58 <chikasudo>	we can't control color with this approach. E.g. the grass will be green in these virtual realities :)
+Jul 23 18:40:12 <baatyr>	haha
+Jul 23 18:40:18 <baatyr>	green? no kidding? :D
+Jul 23 18:40:26 <chikasudo>	:)
+Jul 23 18:41:36 <chikasudo>	the good thing is that we have a full control over subjects. We can even create a new person who has never existed.
+Jul 23 18:42:48 <TalGi>	im working on implementing phisical coprocessor to improve the calculation of phisical colisions in vr
+Jul 23 18:42:54 <TalGi>	almost done
+Jul 23 18:43:06 <baatyr>	chikasudo: i can't wait to try it
+Jul 23 18:43:36 <chikasudo>	talgi: when are you planning to finish it?
+Jul 23 18:43:48 <TalGi>	the next step will be accelerator which gerald mentioned
+Jul 23 18:44:13 <TalGi>	think that i need two more days
+Jul 23 18:44:19 <TalGi>	maybe 3
+Jul 23 18:44:45 <chikasudo>	when it is ready, we can join our results together and make a working prototype. I've already have a monitoring system up and running
+Jul 23 18:45:18 <ap0linand0r>	cool, happy to hear that everything is ok
+Jul 23 18:45:51 <ap0linand0r>	Paul, how is cooperation with D'Errorim team?
+Jul 23 18:47:09 <chikasudo>	the monitoring system will be available on http://195.133.87.184/
+Jul 23 18:47:43 <chikasudo>	when it is deployed, you will receive your credentials
+Jul 23 18:50:19 <Paul_Axe>	umm. There are still some unsolved issues with the PILL interpreter. They are blocking the whole process. But in 2 days it will be ok i think
+Jul 23 18:52:37 <ap0linand0r>	hope so
+Jul 23 19:38:43 *	baatyr (richard@unknown) has left #PRISM (Leaving)
+Jul 23 19:38:44 *	GeraldMalkin (GeraldMalk@unknown) has left #PRISM (Leaving)
+Jul 23 19:38:48 *	chikasudo (chika@unknown) has left #PRISM (Leaving)
+Jul 23 19:38:48 *	You have left channel #PRISM (Leaving)
+**** ENDING LOGGING AT Thu Jul 23 19:38:48 2012

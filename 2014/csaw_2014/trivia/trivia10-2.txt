@@ -1,0 +1,5 @@
+Trivia 10-2
+
+pop eip/rip = ret because end of func is pop eip
+
+"ret"

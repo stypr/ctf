@@ -1,0 +1,7 @@
+Trivia 10
+
+This is the name of the new USENIX workshop that featured papers on CTFs being used for education.
+
+=> https://www.usenix.org/conference/3gse14/summit-program
+
+"3GSE"

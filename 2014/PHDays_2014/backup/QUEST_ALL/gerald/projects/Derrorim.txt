@@ -1,0 +1,9 @@
+D'Errorim VR world Description
+ 
+1. D'Errorim is a fantasy-style VR world populated by various creatures (in reality ?malware and black-hats).
+2. The main character is the worm Detcelfer (in reality ?a computer worm).
+3. There are evil monsters (in reality ?information security corporations).
+4. Each participant acquires a new appearance (according to the PILL script).
+5. The guide motivates the CTF participants to help civilians destroy evil monsters.
+6. Every action of the participants actually happens in the real world (translations are set in the PILL script).
+7. The main goal is to make the participants kill evil monsters (bring down the corporations' infrastructures).

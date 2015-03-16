@@ -1,0 +1,76 @@
+**** BEGIN LOGGING AT Tue Mar 19 12:24:13 2013
+Mar 19 12:24:13 *	Now talking on #derrorim
+Mar 19 12:24:13 *	pillow (pillow@unknown) has joined #derrorim
+Mar 19 12:24:17 *	lordofhaskel (lordofhask@unknown) has left #derrorim (Leaving)
+Mar 19 12:24:22 *	lordofhaskel (lordofhask@unknown) has joined #derrorim
+Mar 19 12:25:32 <Paul_Axe>	I got some info about teams participating in CTF
+Mar 19 12:25:41 <lordofhaskel>	yay
+Mar 19 12:25:44 <Paul_Axe>	it may be useful
+Mar 19 12:25:54 <lordofhaskel>	tell us please
+Mar 19 12:28:03 <Paul_Axe>	there will be 10 teams
+Mar 19 12:28:41 <Paul_Axe>	HackerDom
+Mar 19 12:29:14 <Paul_Axe>	they are from Yekaterinburg, known as one of the first Russian CTF teams
+Mar 19 12:30:32 <Paul_Axe>	they are very skilled hackers, but most of them work in the University
+Mar 19 12:30:48 <Paul_Axe>	they are generous and too kind, we could use it
+Mar 19 12:32:41 <Paul_Axe>	int3pids
+Mar 19 12:33:28 <Paul_Axe>	well-known Spanish team
+Mar 19 12:35:46 <Paul_Axe>	don't know much about them, but most of them use Macbooks
+Mar 19 12:36:03 <Paul_Axe>	I've seen then on some CTF
+Mar 19 12:36:46 <lordofhaskel>	he-he... they seem to like apples
+Mar 19 12:36:51 <Paul_Axe>	does this help?
+Mar 19 12:37:31 <lordofhaskel>	yeah, I'll think about some motivation-layer algorithms)
+Mar 19 12:37:36 <Paul_Axe>	gr8
+Mar 19 12:37:45 <Paul_Axe>	next is ReallyNonamesFor
+Mar 19 12:38:03 <Paul_Axe>	pretty new team from Moscow
+Mar 19 12:42:04 <Paul_Axe>	I know one of their guys, Betepok
+Mar 19 12:42:15 <lordofhaskel>	strange nick)
+Mar 19 12:42:39 <Paul_Axe>	yeah, kinda
+Mar 19 12:43:15 <Paul_Axe>	people usually pronounce it wrong
+Mar 19 12:43:47 <Paul_Axe>	he is a nice guy, actually
+Mar 19 12:44:09 <lordofhaskel>	=\ I can imagine only one way to pronounce it
+Mar 19 12:45:02 <lordofhaskel>	well... fuck it.. what's next?
+Mar 19 12:45:10 <Paul_Axe>	Plaid Parliament of Pwning aka PPP
+Mar 19 12:45:26 <lordofhaskel>	yeah, I heard about them
+Mar 19 12:45:36 <lordofhaskel>	from USA?
+Mar 19 12:46:08 <Paul_Axe>	yep. those guys are tough
+Mar 19 12:46:53 <Paul_Axe>	but there is a bunch of things about them
+Mar 19 12:48:45 <Paul_Axe>	I heard, they always take some handcrafted computer with them. Some people think it is some kind of AI that helps them to hack
+Mar 19 12:49:34 <Paul_Axe>	but I think it is just a gateway to connect to the Google datacenter and bruteforce everything
+Mar 19 12:49:59 <lordofhaskel>	hmm... I doubt that we are able to bring their AI to D'Errorim)
+Mar 19 12:50:05 <Paul_Axe>	I also heard that geohot plays with them
+Mar 19 12:51:21 <Paul_Axe>	maybe we could use use his rap talent
+Mar 19 12:51:29 <lordofhaskel>	is it that guy who made a jailbreak for PS3?
+Mar 19 12:51:41 <Paul_Axe>	yep
+Mar 19 12:53:42 <Paul_Axe>	ok, next is ForbiddenBITS
+Mar 19 12:53:47 <Paul_Axe>	from Tunisia
+Mar 19 12:58:20 <Paul_Axe>	but they say there are Koreans in their team
+Mar 19 13:00:29 <Paul_Axe>	don't know much about them... they have a nice logo :)
+Mar 19 13:02:58 <Paul_Axe>	next team is Eindbazen
+Mar 19 13:03:32 <lordofhaskel>	what about them?
+Mar 19 13:04:51 <Paul_Axe>	they are from Holland.
+Mar 19 13:05:11 <lordofhaskel>	ok! got it... next
+Mar 19 13:05:19 <Paul_Axe>	WildRide
+Mar 19 13:05:42 <Paul_Axe>	a pretty experienced team from Russia
+Mar 19 13:06:59 <Paul_Axe>	I heard they like radio and electronic stuff
+Mar 19 13:07:40 <Paul_Axe>	maybe we could simulate some kind of radio challenge?
+Mar 19 13:08:12 <lordofhaskel>	yeah, we can even let them "win" it
+Mar 19 13:08:22 <Paul_Axe>	gr8
+Mar 19 13:08:37 <Paul_Axe>	ok
+Mar 19 13:08:40 <Paul_Axe>	RAON_ASRT
+Mar 19 13:10:41 <Paul_Axe>	those guys are from Korea
+Mar 19 13:11:23 <Paul_Axe>	afaik, all Korean teams are connected
+Mar 19 13:12:40 <Paul_Axe>	things work different in Asia. I heard they even have some women hacker team
+Mar 19 13:16:14 <Paul_Axe>	I suppose we should be careful and try not to mess with them
+Mar 19 13:16:20 <Paul_Axe>	I've heard they have a strange way to count person's age in Korea. We should check the time/date configuration to prevent problems like Y2K
+Mar 19 13:19:10 <Paul_Axe>	next, ufologists
+Mar 19 13:20:30 <Paul_Axe>	those guys are from Taganrog
+Mar 19 13:26:32 <lordofhaskel>	ufologists.. we could make an alien race in D'Errorim
+Mar 19 13:27:04 <Paul_Axe>	well, this should work i suppose
+Mar 19 13:27:21 <lordofhaskel>	the last team?
+Mar 19 13:27:28 <Paul_Axe>	More Smoked Leet Chicken
+Mar 19 13:28:31 <Paul_Axe>	they have vos and good hackers
+Mar 19 13:29:11 <Paul_Axe>	I know that they their members are spread all over the world
+Mar 19 13:29:39 <Paul_Axe>	Japan, Russia, Norway...
+Mar 19 13:29:50 <Paul_Axe>	one of them works for PT, by the way. Therefore, he won't participate in PHDays CTF this time, but maybe I can get him drunk and know something.
+Mar 19 13:46:53 <lordofhaskel>	ok, i'll think about environment parameters then
+**** ENDING LOGGING AT Tue Mar 19 13:49:11 2013

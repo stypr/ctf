@@ -1,0 +1,11 @@
+PRISM Description
+ 
+PRISM is a system for creating and maintaining custom virtual realities (VRs). A VR creator can suggest a life-like illusion of reality to target individuals. This enables the creator to ultimately manipulate targets' actions.
+ 
+The common steps for using PRISM are:
+1. to get information about targets (the more information, the better effect)
+2. to describe a VR world using the PILL language
+3. to load the PILL script to the PRISM control panel
+4. PRISMë­?search engine will automatically localize targets
+5. to launch PRISM to place all targets into the VR world (using a number of physical, biochemical, and technological methods)
+6. the VR process can be stopped by some condition described in the PILL script or manually

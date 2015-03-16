@@ -1,0 +1,6 @@
+Detcelfer Description
+ 
+Detcelfer is a computer worm that was created for distributed attacks. Itë­?currently one of the most advanced malware programs. It has modular architecture, its main core is written in C++ and Nothing, some modules are written using Assembler, Python, and Haskell.
+Detcelferë­?main goal is to propagate, gain root access and provide a backdoor for its administrator.
+There are three editions of the worm: Lite, Pro and Mobile. The Lite version was created as a POC to demonstrate Zohers its potential. The Pro version is cross-platform and contains multiple self-protection mechanisms.
+Early modifications of Detcelfer were used in Zohers?attacks. The alpha-versions are known to general public as Stuxnet, Duqu, Gauss, and Flame.

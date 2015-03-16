@@ -1,0 +1,30 @@
+**** BEGIN LOGGING AT Tue Dec 25 06:24:51 2012
+Dec 25 06:24:51 *	Now talking on #derrorim
+Dec 25 06:30:13 <lordofhaskel>	pillow, wtf? i always got triple fault on master when I call LoadScript() =\
+Dec 25 06:30:59 <pillow>	have you merged the last commits from unstable branch?
+Dec 25 06:31:14 <lordofhaskel>	no... its unstable)
+Dec 25 06:31:27 <pillow>	do it :)
+Dec 25 06:31:38 <pillow>	unstable branch is more stable now
+Dec 25 06:31:44 <lordofhaskel>	will try
+Dec 25 06:33:40 <lordofhaskel>	yey, now its ok
+Dec 25 06:33:45 *	lordofhaskel (lordofhask@unknown) has left #derrorim (Leaving)
+Dec 25 06:34:02 *	lordofhaskel (lordofhask@unknown) has joined #derrorim
+Dec 25 06:34:09 <lordofhaskel>	hi there
+Dec 25 06:35:16 <lordofhaskel>	Paul, how are tests of derrorim in prism context?
+Dec 25 06:35:35 <Paul_Axe>	hey
+Dec 25 06:36:28 <Paul_Axe>	seems ok, the environment integrates seamlessly
+Dec 25 06:37:11 <Paul_Axe>	the only thing i don't like is that only one person is able to look at it from inside
+Dec 25 06:37:50 <lordofhaskel>	wow, i thought there would be a lot of bugs in real environment...)
+Dec 25 06:38:23 <lordofhaskel>	what do you mean "look from inside"?
+Dec 25 06:38:27 <Paul_Axe>	there were, but I have fixed almost all of them
+Dec 25 06:39:27 <Paul_Axe>	there is a man in the PRISM team who can switch realities by his will
+Dec 25 06:39:40 <lordofhaskel>	OMG
+Dec 25 06:39:51 <Paul_Axe>	so he doesn't need PRISM to go into D'Errorim
+Dec 25 06:40:00 <lordofhaskel>	i didn't know it's possible
+Dec 25 06:40:13 <Paul_Axe>	seems like he is the only one who can do it
+Dec 25 06:42:47 <lordofhaskel>	and when do we have the final testing?
+Dec 25 06:44:27 <Paul_Axe>	We should finish PRISM-D'Errorim integration by the beginning of 2013
+Dec 25 06:46:21 <Paul_Axe>	the project should be ready by May 2013
+Dec 25 06:46:29 <lordofhaskel>	oh...
+Dec 25 06:47:47 *	ap0linand0r (ap0linand0@unknown) has joined #derrorim
+**** ENDING LOGGING AT Tue Dec 25 06:47:50 2012

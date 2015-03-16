@@ -1,0 +1,14 @@
+Forensics 300
+
+it was a quite challenging question because I haven't done forensics for a long period of time..
+anyways, we discover few important folders after unzipping the tar files. (i.e. /var/log , /etc/, /var/ww, etc.)
+
+When we look over here and there, we find out that there is a whole list of activities done by root on a file called "/var/log/auth.log"
+As we check this log, we see that there is a suspicious log that the hacker writes into a js file all of a sudden.
+as we run the js script, we see a pdf file popped up from the browser (in which pdf url is http://128.238.66.100/announcement.pdf)
+By extracting the pdf file, you get a small part of js file, and you will get a flag if you run the js script which was embedded in the pdf file.
+
+
+--
+
+/* I didn't save the flag, but if you want to see it, contact me to me personally */

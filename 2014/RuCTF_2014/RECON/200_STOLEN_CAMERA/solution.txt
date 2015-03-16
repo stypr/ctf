@@ -1,0 +1,35 @@
+==================================
+SOLVED BY STYPR (http://stypr.com)
+==================================
+
+
+
+It was very difficult task; there were only few images in the album category named "american trip".
+I found some information from vk.com website, and the results were fantastic:
+
+======
+Olimpiada Balalaykina
+Studied at:¬µ¬â¬¶¬µ (¬â¬Ñ¬ß¬Ö¬Ö ¬µ¬â¬¤¬µ ¬Ú ¬µ¬¤¬´¬µ-¬µ¬±¬ª)
+Hide full information
+Education
+College or university:¬µ¬â¬¶¬µ (¬â¬Ñ¬ß¬Ö¬Ö ¬µ¬â¬¤¬µ ¬Ú ¬µ¬¤¬´¬µ-¬µ¬±¬ª)
+Personal information
+About me:balalay_5524@quals2014.ructf.org
+Places
+House:garages.blocks.daisy Miami
+=======
+
+Here, we know that she was at Miami. Not only that, her american photos showed few hints.
+Day 2 showed California.
+Day 3 showed some place which looked like Nevada
+Day 4 showed somewhere northern - Not sure where it was - but looked fresh in terms of its view (lucid sky and good mountain!) :)
+Day 5 showed something related to farm - guessed Utah at first.
+
+According to all these information, the place that she would have lost the photo could be somewhere between Miami and California.
+
+It had been looked like that she was going from West to East, I started to guess cities near Utah, and guessed it would be somewhere in Colorado.
+then I started to brute-force by hand the all cities in Colorado...
+
+and I found "Grand Junction" as the answer.
+
+PS: you know, guessing is also a type of social hacking. :p

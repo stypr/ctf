@@ -1,0 +1,23 @@
+==================================
+SOLVED BY STYPR (http://stypr.com)
+==================================
+
+
+
+Since this CTF was based on Russia, I decided to find Russian google like "Yandex" and others and started to search for it.
+After few hours, I found a russian-made social networking website called "VK" from Wikipedia.
+(Source: http://en.wikipedia.org/wiki/VK_(social_network))
+
+After I searched for Olimpiada Balalaykina, I had found her profile successfully.
+(Profile: http://vk.com/olimpiada_balalaykina)
+
+If you see the image in her wall post, you see a bag with a lot of small words.
+(Image: ./oZmiuKnAUs4.jpg)
+
+If you google search the image given in the wall post, you get a website containing the image of the bag.
+(Image: ./google_search.png)
+
+
+"The extract from Pride and Prejudice features Mr Darcy¡¯s famous declaration of love to Elizabeth, and as such, makes a romantic gift for a loved one." can be found from the shopping website.
+
+(Source: http://www.etsy.com/uk/listing/163812668/pride-and-prejudice-cotton-book-bag?ref=shop_home_active_)
