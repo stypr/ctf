@@ -31,8 +31,10 @@ FLAG->PHP fILTerZ aR3 c00l buT i pr3f3r f1lt3r 0xc0ffee
 ## web400
 
 The database seemed to be truncated every 15 minutes or so, and you can find out that the 'admin' username is taken whenever the database gets truncated.
+
 The best possible case is to try a sql injection based on the functionality of mongodb and python.
 As we move on, by reading the `index.py` script given from the ctf, we find out thaat the script encrypts the `auth` param in the cookie with AES-CBC encryption which is vulnerable to padding attacks.
+
 Moreover, if we think about the code `user = g.db.users.find_one(get_cookie())` and the outline of how mongodb works,
 we can actually remove the password parameter and let the cookie have the username only in it.
 
