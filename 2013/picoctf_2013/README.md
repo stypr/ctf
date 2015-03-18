@@ -2,12 +2,15 @@
 
 By guessing you get the flag
 
+```
 sda1 .. fail!
 fat32.. success!
+```
 
 ## Read the manual
 
 I have coded ROT-* solver long time ago.. so I tried ROT-* solve and solved this problem.
+
 Decrypted Text:
 `IMPORTANT: To enter automatic recovery mode, enter the following recovery key cbcfebeaeeed"`
 
@@ -121,3 +124,4 @@ so i figured out that you have to make the sql output as the password you want.
 so, I used this sql code below as userid so that the password is md5('test');
 ```' AND 1=0 UNION SELECT '098f6bcd4621d373cade4e832627b4f6'# ```
 and password as test. I successfully got the answer.
+r

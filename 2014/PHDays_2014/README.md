@@ -5,8 +5,10 @@ Participated as `Friend of Dalvik` (a part of wowhacker team)
 
 ## Snowden Gadget
 
-By bruteforce of characters to the server, you find out that the that there is "AT" command on the shell.
-Additionally, the hint was given as "Hayes".
+By bruteforcing characters to the server, you will find out that the that there is "AT" command on the shell.
+
+Not only that, the hint on the given challenge was written as "Hayes".
+
 By googling the hint, you find out that the challenge is related to the Huawei modem.
 
 ```
@@ -55,4 +57,4 @@ index1 will be returned.
 The TEST command returns the position range of the currently selected p
 ````
 
-By using the +CMGL and ^CPBR command, you will eventually get the flag.
+you will eventually get the flag by using the +CMGL and ^CPBR command.

@@ -1,9 +1,3 @@
-==================================
-SOLVED BY STYPR (http://stypr.com)
-==================================
-
-
-
 By looking at her profile photo, we find out a phone number - +37255933368.
 (Image: ./1-here.jpg)
 I found out from the question that the question is related to telegram application.
