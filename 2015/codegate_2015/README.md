@@ -2,14 +2,14 @@ Participated as Ad Victoriam.
 
 ## web200
 
-I've found a LFI vulnerability in a GET parameter by testing the parameter in the `index.php`.
-It sounded more like that the code executes in the form of `include(null_filter($var).".php");`.
+First of all, there is a LFI vulnerability in a GET parameter by testing parameters in the `index.php`.
+As you analyze the mode parameter, you can see that the code executes in the form of `include(null_filter($var).".php");`.
 
-Later on, I've tried `php://filter` on the param and I was able to leak out the sourcecode of the `upload.php`.
-`(index.php?mode=php://filter/convert.base64-encode/resource=upload)`
+At this rate, trying `php://filter` on the parameter would leak out the sourcecode of the `upload.php` and other files.
+`payload: (index.php?mode=php://filter/convert.base64-encode/resource=upload)`
 
-As we look further of how `upload.php` work,
-we find out that the file checks for the extension but does not check the contents of the file.
+As we look further of how `upload.php` works,
+we find out that the file checks for the extension, but does not check its contents of the uploaded file.
 
 Based on this information, we can think about zipping the file and load the php script from the zip file.
 
@@ -32,12 +32,13 @@ FLAG->PHP fILTerZ aR3 c00l buT i pr3f3r f1lt3r 0xc0ffee
 
 The database seemed to be truncated every 15 minutes or so, and you can find out that the 'admin' username is taken whenever the database gets truncated.
 
-The best possible case is to try a sql injection based on the functionality of mongodb and python.
-As we move on, by reading the `index.py` script given from the ctf, we find out thaat the script encrypts the `auth` param in the cookie with AES-CBC encryption which is vulnerable to padding attacks.
+The best possible case could be to try a sql injection based on the functionality of mongodb and python.
+By reading the `index.py` script given from the ctf, you can see that the script encrypts the `auth` param in the cookie with AES-CBC encryption, which is vulnerable to padding attacks.
 
 Moreover, if we think about the code `user = g.db.users.find_one(get_cookie())` and the outline of how mongodb works,
 we can actually remove the password parameter and let the cookie have the username only in it.
 
+The example is desribed as shown in below:
 ```
 python: {"u":"username", "pw":"stypr"}
 mongodb: SELECT * FROM (unknown) WHERE u='username' and pw='stypr'
@@ -46,8 +47,7 @@ python: {"u":"username"}
 mongodb: SELECT * FROM (unknown) WHERE u='username'
 ```
 
-Based on the things we kept in our mind, we just need to make the auth cookie to have `{"u":"admin"}\x03\x03\x03` as the plaintext.
-
+Based on the things we kept in our mind, we just need to make the auth cookie to have `{"u":"admin"}\x03\x03\x03` as the plaintext, in order to be authenticated as admin.
 
 ```
 - cbc padding vulnerability
@@ -56,10 +56,10 @@ Based on the things we kept in our mind, we just need to make the auth cookie to
     >>> print(base64.b64encode(malformed_iv+original_data))
         2zSNdk462MFkrqqwXK1Uut9d81nyZ7RGbV2q7PDX4uo=
 
-- setting up the cookie (I just had put this on a javascript console)
+- setting up the cookie (put this on a javascript console)
     document.cookie="auth=2zSNdk462MFkrqqwXK1Uut9d81nyZ7RGbV2q7PDX4uo;"
 
-- the response I've got
+- the http response
     <h2>Logged in as admin</h2> 
     ...
     <span class="badge badge-important">1</span><span class="btn btn-link" onclick="play('the_owls_are_watching_again')">THIS IS THE KEY</span></br></br>
