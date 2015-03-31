@@ -102,20 +102,3 @@ https://www.cloudshark.org/captures/2c438d32dfc0?filter=mysql
 def.forward.flag.flag.flag.flag...0................"......0ctf{w3ll_d0ne_guY}.......".
 
 ```
-
-
-```
-- cbc padding vulnerability
-    $ python
-    ... (stripped - it does "plaintext xor iv xor fake_text" to create a fake iv) ...
-    >>> print(base64.b64encode(malformed_iv+original_data))
-        2zSNdk462MFkrqqwXK1Uut9d81nyZ7RGbV2q7PDX4uo=
-
-- setting up the cookie (put this on a javascript console)
-    document.cookie="auth=2zSNdk462MFkrqqwXK1Uut9d81nyZ7RGbV2q7PDX4uo;"
-
-- the http response
-    <h2>Logged in as admin</h2> 
-    ...
-    <span class="badge badge-important">1</span><span class="btn btn-link" onclick="play('the_owls_are_watching_again')">THIS IS THE KEY</span></br></br>
-```
