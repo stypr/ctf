@@ -53,7 +53,7 @@ The second vulnerability is triggered in the ```upw``` field with the ```informa
 
 the ```information_schema.processlist``` in mysql basically outputs the table of queries that are being executed on the server. You are required to select the data and parse your ```upw``` inputs to the result to satisfy such that the option 3 is completely bypassed.
 
-### 2-3. race condition with information_schema.processlist
+#### 2-3. race condition with information_schema.processlist
 
 With two vulnerability we've managed to bypass option 1,2,3.
 
@@ -61,14 +61,14 @@ However in option 4 we cannot ```select from processlist``` normally, and this i
 
 Because of this issue, you may have to do a race condtion by inserting ```sleep()``` function on the query, and this will eventually sleep the query and let the race condtion happen. Therefore you will be able to satisfy the option 4.
 
-### 2-4. SQL Quine 
+#### 2-4. SQL Quine 
 
 Now the last two options - you cannot select information_schema or use global variables to copy your query. The only thing you can do at this stage is to use replace() function to quine the query. Since this is hard to explain, I will just follow up with the exploit code on the chapter 3.
 
 (If I knew this method from the beginning ...I could've solved it in an easier way but anyways..)
 
 
-## Stage 3: The exploit
+### Stage 3: The exploit
 
 The code below is the method  in which I've used for my local exploit... This will work in your server but I'm not sure if it works on the ctf service. 
 
