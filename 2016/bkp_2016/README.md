@@ -123,6 +123,7 @@ begin
 ```
 <html>
 <body>
+<img src="/http:/swag" /> 
 <img src="http:/../../../../../../flag">
 </body>
 </html>
